@@ -1,3 +1,3 @@
 # Exercism problems
-Exercism (http://www.exercism.io/) join a lot of simple code problems in many different languages.
-Here, I solve some of them using ruby.
+Exercism (http://www.exercism.io/) puts together a lot of algorithmic problems in many different languages.
+Here, I post my solution for some of these problems using ruby.
