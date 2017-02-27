@@ -12,27 +12,15 @@
 
 class Squares
   def initialize(num)
-    @qntd = num
+    @qty = num
   end
 
   def square_of_sum
-    sqr_sum = 0
-    aux = 1
-    while aux <= @qntd
-      sqr_sum += aux
-      aux += 1
-    end
-    sqr_sum**2
+    (0..@qty).reduce(:+) ** 2
   end
 
   def sum_of_squares
-    sum_sqr = 0
-    aux = 1
-    while aux <= @qntd
-      sum_sqr += aux**2
-      aux += 1
-    end
-    sum_sqr
+    (0..@qty).map{ |n| n ** 2}.reduce(:+)
   end
 
   def difference
